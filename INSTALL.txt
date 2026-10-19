@@ -1,22 +1,24 @@
-Dead Signal Speedrun v1.0 — Release Candidate 2 (testing build)
+Dead Signal Speedrun v0.9 — PRE-RELEASE
 
-Requires: Dead Signal (tested on 2.0.0) and UE4SS 3.0.1 (Windows).
-UE4SS download: https://github.com/UE4SS-RE/RE-UE4SS/releases/
+Requires: Dead Signal on Windows and UE4SS v3.0.1.
+UE4SS releases: https://github.com/UE4SS-RE/RE-UE4SS/releases/
 
 1. Close Dead Signal.
-2. Install UE4SS 3.0.1 to DeadSignal\Binaries\Win64 if you haven't already.
-   Follow UE4SS's own installation guide for its DLL files.
-3. Remove any OLD DeadSignalSpeedrun folder from Win64\Mods (do not merge versions).
-4. Copy the DeadSignalSpeedrun folder from this ZIP to Win64\Mods.
-5. Enable it in Win64\Mods\mods.txt by adding: DeadSignalSpeedrun : 1
-6. If you previously installed DeadSignalMenuProbe, disable it.
-7. Launch Dead Signal, select New Game > Speedrun, and press Begin Shift.
+2. Install UE4SS v3.0.1 in DeadSignal\Binaries\Win64 using UE4SS's official instructions.
+3. Download DeadSignalSpeedrun_v0.9.zip from the GitHub Release's Assets section.
+   Do not use GitHub's automatic "Source code (zip)" download for installation.
+4. Remove any previous Win64\Mods\DeadSignalSpeedrun folder (do not merge versions).
+5. Extract the new DeadSignalSpeedrun folder from the ZIP into Win64\Mods.
+6. Add DeadSignalSpeedrun : 1 to Win64\Mods\mods.txt.
+7. Disable any old DeadSignalMenuProbe mod if you used it during testing.
+8. Launch Dead Signal, select New Game > Speedrun, and press Begin Shift.
 
-Both timers should begin at Begin Shift. RTA advances live; estimated IGT
-updates visually at pause/loading checkpoints. No manual timer hotkeys.
+RTA counts continuously; estimated IGT is shown at pause/loading checkpoints.
+There are no manual timer start/stop hotkeys in this build.
 
-Uninstall: close game, delete Win64\Mods\DeadSignalSpeedrun, and remove
-(or disable) its entry in mods.txt. UE4SS is a separate dependency.
+To uninstall: close the game, remove Win64\Mods\DeadSignalSpeedrun,
+and disable or remove its line in Mods\mods.txt.
 
-IMPORTANT: Successful-run end-of-timer accuracy is still being verified.
-This build should NOT yet be advertised as an approved leaderboard timer.
+PRE-RELEASE WARNING:
+The correct stop point at the successful ending fade has NOT been verified.
+Estimated IGT is NOT an officially validated leaderboard timing method.

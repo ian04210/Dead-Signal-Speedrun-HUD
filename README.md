@@ -6,7 +6,7 @@ Once selected, it creates a RTA and IGT timer in the top right of the screen. It
 -Download UE4SS v3.0.1. and extract the folder (any other version of UE4SS has yet to be tested.)
 -Copy all the files in the extracted folder and paste them in steamapps\common\Dead Signal\DeadSignal\Binaries\Win64
 -Make sure the folder this README file is in is extracted
--Open DeadSignalSpeedrun_v1.0.zip and copy the DeadSignalSpeedrun folder inside
+-Open DeadSignalSpeedrun_v0.9.zip and copy the DeadSignalSpeedrun folder inside
 -Paste the DeadSignalSpeedrun folder inside the Mods folder inside steamapps\common\Dead Signal\DeadSignal\Binaries\Win64
 -Open the mods.txt file and add "DeadSignalSpeedrun : 1" written exactly like that (remove the quotes)
 -Save the txt and run Dead Signal

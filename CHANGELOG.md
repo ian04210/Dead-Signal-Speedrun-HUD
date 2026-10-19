@@ -1,15 +1,20 @@
 # Dead Signal Speedrun — Release history
 
-## v1.0 RC2 (release candidate)
+## v0.9 — Pre-release
 
-- Refreshes the native game font when the title menu is rebuilt to avoid a font change after returning to the menu.
-- Retains the 1px black timer outline, compact HUD, gold Speedrun card, and restart-safety changes.
-- Start detection uses the Begin Shift button. Development-only F8/F9 timer shortcuts are not present.
-- No timing logic changes from the previously tested outline build.
+- Adds a fourth **Speedrun** card to the New Game difficulty menu, launching Casual mode.
+- Starts RTA and estimated IGT at **Begin Shift**. RTA updates continuously; IGT displays its accumulated value at pause/loading checkpoints.
+- Gold stopwatch card, compact native-style HUD, and 1px black timer outline.
+- Includes restart-safety improvements and refreshes the native font when the title screen is rebuilt.
+- Uses the exact Lua script and stopwatch image tested in v1.0 RC2; v0.9 is a release-label change, not a new gameplay patch.
 
-## v1.0 RC1
+### Outstanding verification
 
-- Consolidated Speedrun mode, automatic timer start, RTA and checkpoint-displayed estimated IGT.
-- Added menu reset protections and high-contrast timer text.
+- The stop trigger at the **successful end-of-run fade** has not been verified with a completed run.
+- Font consistency after an **actual death and restart** still needs more testing. Regular returns to the main menu have been tested.
+- IGT is an estimate and is not an officially approved leaderboard timing method.
 
-*RC2 was tested after a fresh UE4SS install. A complete successful run's stop point and font recovery after an actual death remain to be verified.*
+## Previous private builds
+
+- **v1.0 RC2:** Font-cache refresh for repeated menu visits.
+- **v1.0 RC1:** Automatic start detection, restart safety, menu presentation, estimated IGT checkpoints, and timer readability improvements.

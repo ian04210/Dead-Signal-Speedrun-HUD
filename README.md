@@ -1,3 +1,5 @@
+NOTE: This is a mod I made as the beginning of a practice course I'm doing to learn Unreal Engine Modding. This entire project is vibe coded. I had ChatGPT explain all the individual changes it would make each time it did in order to get fundamentals on modding. Future projects made by me will be written manually.
+
 This is a mod for Dead Signal made with UE4SS. It adds a new Speedrun mode in the menu!
 
 Once selected, it creates a RTA and IGT timer in the top right of the screen. It's designed to end when you go to sleep at the end of the 4am night.
